@@ -1,0 +1,14 @@
+//center container content
+@mixin center-content{
+    width: 95%;
+    margin: 0 auto;
+    @content;
+}
+//display flex
+@mixin flex-center($directin){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    @content;
+}

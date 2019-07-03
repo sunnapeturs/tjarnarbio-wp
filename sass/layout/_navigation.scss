@@ -1,0 +1,19 @@
+.header-container{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    .header-content{
+        @include center-content;
+        height:100%;
+        color:#fff;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color:#fff;
+        }
+        .menu-links{
+            display:none;
+        }   
+    }
+}

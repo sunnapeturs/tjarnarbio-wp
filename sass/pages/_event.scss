@@ -1,0 +1,6 @@
+.event-container{
+    width: 100%;
+    .event-content{
+        @include center-content;
+    }
+}
